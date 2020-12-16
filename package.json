@@ -11,7 +11,7 @@
     "lint:staged": "lint-staged",
     "clean": "rm -rf node_modules",
     "prettify": "prettier --write",
-    "prepare": "npm run bundle"
+    "prepare": "node ./config/test.js"
   },
   "files": [
     "dist"
