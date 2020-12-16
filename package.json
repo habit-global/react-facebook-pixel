@@ -11,7 +11,8 @@
     "lint:staged": "lint-staged",
     "clean": "rm -rf node_modules",
     "prettify": "prettier --write",
-    "prepare": "yon run bundle"
+    "prepare": "yon run bundle",
+    "prepublish": "yon run bundle"
   },
   "files": [
     "dist"
