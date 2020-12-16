@@ -13,6 +13,9 @@
     "prettify": "prettier --write",
     "prepare": "yon run bundle"
   },
+  "files": [
+    "dist"
+  ],
   "repository": "git://github.com/zsajjad/react-facebook-pixel.git",
   "keywords": [
     "react",
