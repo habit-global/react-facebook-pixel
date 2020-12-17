@@ -37,12 +37,12 @@
   "homepage": "https://github.com/zsajjad/react-facebook-pixel",
   "dependencies": {},
   "devDependencies": {
+    "@babel/cli": "^7.12.10",
     "@babel/core": "^7.7.5",
     "@babel/plugin-transform-react-constant-elements": "^7.7.4",
     "@babel/plugin-transform-react-inline-elements": "^7.7.4",
     "@babel/preset-env": "^7.7.6",
     "autoprefixer": "9.7.3",
-    "babel-cli": "^6.26.0",
     "babel-eslint": "10.0.3",
     "babel-loader": "^8.0.6",
     "cross-env": "^7.0.3",
@@ -63,7 +63,6 @@
     "webpack-dev-server": "3.9.0",
     "yarn-or-npm": "^3.0.1"
   },
-  "peerDependencies": {},
   "lint-staged": {
     "*.js": [
       "yarn lint",
